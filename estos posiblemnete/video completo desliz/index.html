@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    #video-container{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    video{
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .content{
+        position: relative;
+        padding: 150px 200px;
+        text-align: center;
+    }
+    .content h1{
+        font-size: 3em;
+        margin: 10px 0;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .content p{
+        font-size: 1em;
+        margin: 10px 0;
+        color: #fff;
+    }
+    section{
+        text-align: center;
+        padding: 150px 200px;
+        background: #fff;
+    }
+    section h1{
+        font-size: 3em;
+        margin: 10px 0;
+        color: #262626;
+        text-transform: uppercase;
+    }
+    section p{
+        font-size: 1em;
+        margin: 10px 0;
+        color: #262626;
+    }
+    .sec2{
+        background: transparent;
+    }
+    .sec2 h1{
+        font-size: 3em;
+        margin: 10px 0;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .sec2 p{
+        font-size: 1em;
+        margin: 10px 0;
+        color: #FFF;
+    }
+
+</style>
+<body>
+    <div id="video-container">
+        <video src="ataqueop1.mp4" preload="auto" autoplay="autoplay" type="video/mp4" loop muted></video>
+        <div class="content">
+            <h1>aqui el titulo</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur atque molestiae repudiandae aut. Voluptas animi itaque minus nemo similique autem eveniet corrupti, repudiandae odio tempore vitae, earum, accusantium sunt nesciunt.</p>
+        </div>
+    </div>
+    <section>
+        <h1>aqui el titulo</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur atque molestiae repudiandae aut. Voluptas animi itaque minus nemo similique autem eveniet corrupti, repudiandae odio tempore vitae, earum, accusantium sunt nesciunt.</p>
+    </section>
+
+    <section class="sec2">
+        <h1>aqui el titulo</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur atque molestiae repudiandae aut. Voluptas animi itaque minus nemo similique autem eveniet corrupti, repudiandae odio tempore vitae, earum, accusantium sunt nesciunt.</p>
+    </section>
+</body>
+</html>

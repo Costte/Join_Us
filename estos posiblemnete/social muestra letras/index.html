@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ff0175;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+ul li .text{
+    position: absolute;
+    width: 0;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: 0;
+    transition: 1s;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 18px;
+    color: #fff;
+}
+ul li .fa-brands{
+    font-size: 2em;
+    color: #fff;
+}
+ul li:hover .text{
+    width: 120px;
+    margin: 10px;
+    margin-left: -60px;
+}
+
+</style>
+<body>
+    <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <div class="text">Facebook</div></li>
+		
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <div class="text">Twiter</div></li>
+            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <div class="text">Google Plus</div></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <div class="text">Pinterest</div></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <div class="text">Instagram</div></li>
+    </ul>
+</body>
+</html>

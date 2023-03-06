@@ -1,0 +1,521 @@
+@font-face {
+  font-family: 'alex_brushregular';
+  src: url('../fonts/alexbrush-regular-webfont.eot');
+  src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+       url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+       url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'carrois_gothicregular';
+  src: url('../fonts/carroisgothic-regular-webfont.eot');
+  src: url('../fonts/carroisgothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/carroisgothic-regular-webfont.woff2') format('woff2'),
+       url('../fonts/carroisgothic-regular-webfont.woff') format('woff'),
+       url('../fonts/carroisgothic-regular-webfont.svg#carrois_gothicregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'kalamregular';
+  src: url('../fonts/kalam-regular-webfont.eot');
+  src: url('../fonts/kalam-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/kalam-regular-webfont.woff2') format('woff2'),
+       url('../fonts/kalam-regular-webfont.woff') format('woff'),
+       url('../fonts/kalam-regular-webfont.svg#kalamregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+}
+body {
+  font-size: 16px; /* -----------Estas dos etiquetas body y HTML se utilizan para sacarle
+	mejor provecho al rem en los font-size--SOLO OCUPAR REM EN LA PAGINA--*/
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-image: radial-gradient(circle, #f9e3e3, #faeaee, #faf1f6, #fbf8fc, #ffffff);
+}
+a:link {
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------*/
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.hero-section {
+  width: 100%;
+  height: 80rem;
+  overflow: hidden;
+  position: relative;
+}
+.hero-section img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+/*--------------------------------------Fecha--------------------------------*/
+.nombres_novios h1{
+  font-family: 'alex_brushregular';
+  font-size: 9rem;
+  color: rgb(250, 128, 114);
+}
+.fecha_boda {
+  color: #333;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 1px 1px 2px rgb(19, 6, 6), 0 0 1em violet, 0 0 0.2em violet;
+}
+.fecha_boda h2{
+  font-size: 4rem;
+  font-family: 'carrois_gothicregular';
+}
+
+.fecha_boda li {
+  display: inline-block;
+  font-size: 3.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  font-family: 'carrois_gothicregular';
+}
+.fecha_boda li span {
+  display: block;
+  font-size: 6.5rem;
+  font-family: 'carrois_gothicregular';
+}
+/*-----------------------------------FOTO----------------------------------*/
+
+.cont_log {
+  position: absolute;
+  margin-left: 15rem;
+  filter: drop-shadow(5px 5px 3px #ff5f5f);
+  z-index: 1;
+}
+.nav_img {
+  width: 9rem;
+  height: 9rem;
+  padding-bottom: 1rem;
+}
+.nombres_novios {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nombres_novios h2{
+  font-size: 5rem;
+}
+
+/*---------------------------------FIN--FOTO----------------------------------*/
+
+/*-------------------------------Boletos----------------------------------*/
+
+.boletos {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.boletos img {
+  width: 100%;
+  height: 50rem;
+}
+.boletos .text_boleto{
+  font-weight: bold;
+  font-size: 6rem;
+  font-family: 'carrois_gothicregular';
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  text-shadow: 1px 1px 2px rgb(19, 6, 6), 0 0 1em white, 0 0 0.2em white;
+  z-index: 10;
+}
+/*----------------------------FIN---Boletos----------------------------------*/
+/*------------------------------------Direcciones--------------------------------*/
+.direcciones {
+  width: 960px;
+  margin: 3rem auto;
+
+}
+
+.direcciones:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.bg-items {
+  padding: 20px;
+  width: 380px;
+  height: 280px;
+  margin: 20px;
+  background-color: whitesmoke;
+  float: left;
+  box-shadow: 3px 3px 5px 0px rgba(128, 121, 121, 0.5);
+}
+.bg-items span{
+  font-size: 2rem;
+  position:relative;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  font-family: 'carrois_gothicregular';
+  z-index: 20;
+  cursor: pointer;
+}
+.bg-items span:hover{
+  color: gray;
+}
+
+.bg-items a:link,  .bg-items a:visited, .bg-items a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.items {
+  width: 340px;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+  
+  background-size: cover;
+}
+.items1{
+  background-image: url(../img/iglesia_11.png);
+}
+.items2{
+  background-image: url(../img/salon_11.png);
+}
+.items3{
+  background-image: url(../img/motel_11.png);
+}
+
+.details {
+  width: 340px;
+  height: 220px;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  font-family: 'carrois_gothicregular';
+  font-size: 5rem;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.details h3 {
+  margin-top: 3.5rem;
+  font-size: 2rem;
+}
+
+.details h6 {
+  text-align: right;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.details p {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 2.5rem;
+}
+
+.items:hover .details {
+  opacity: 1;
+  transition: opacity 0.2s 0.3s;
+}
+
+.items div {
+  position: absolute;
+}
+
+/* frame */
+
+.frame {
+  left: 0;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  background-color: #e464b99f;
+  transition: all 0.3s;
+  transform: scale(0, 0);
+}
+
+.items:hover .frame {
+  left: 0;
+  top: 0;
+  transform: scale(1, 1);
+  transition: all 0.3s;
+}
+
+span i{
+  color: #0fe25c;
+	-webkit-animation: flip-vertical-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+	        animation: flip-vertical-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+}
+@-webkit-keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
+@keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
+
+/*-------------------------------FIN-----Direcciones--------------------------------*/
+/*----------------------------------Regalos----------------------------------------*/
+.mesa_regalos{
+  background-image: linear-gradient(to top, #ffc0cb, #ffccc3, #ffdbc0, #ffebc5, #fafad2);
+}
+.liver img{
+  width: 30rem;
+  height: 20rem;
+  box-shadow:  -5px -5px 5px 1px rgb(92, 89, 89);
+  border-radius: 3rem;
+  margin: 4rem;
+  transition: all 1s;
+  background: white;
+}
+
+.liver img:hover{
+  box-shadow:  5px 5px 5px 1px rgb(92, 89, 89);
+}
+
+/*----------------------------------Fin Regalos-----------------------------------------*/
+/*-----------------------------------Inicio galeria--------------------------------------*/
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+section #slider{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+section .nave{
+   position: absolute;
+   bottom: 40px;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 100;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section .nave li{
+list-style: none;
+cursor: pointer;
+margin: 10px;
+}
+
+section .nave li img{
+   width: 100px;
+   border: 4px solid #fff;
+   border-radius: 4px;
+}
+
+section h2{
+  position: relative;
+  z-index: 100;
+  font-size: 10rem !important;  
+  color: #e365d0;
+  font-weight: bold;
+  text-align: center;  
+  max-width: 1000px;
+  text-shadow: 3px 0px 1px rgba(182, 9, 87, 0.678);
+  font-family: 'alex_brushregular';
+  -webkit-animation: text-shadow-pop-bottom 0.6s both;
+  animation: text-shadow-pop-bottom 0.6s both;
+}
+
+@-webkit-keyframes text-shadow-pop-bottom {
+ 0% {
+   text-shadow: 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678);
+   -webkit-transform: translateY(0);
+           transform: translateY(0);
+ }
+ 100% {
+   text-shadow: 0 1px rgba(182, 9, 87, 0.678), 0 2px rgba(182, 9, 87, 0.678), 0 3px rgba(182, 9, 87, 0.678), 0 4px rgba(182, 9, 87, 0.678), 0 5px rgba(182, 9, 87, 0.678), 0 6px rgba(182, 9, 87, 0.678), 0 7px rgba(182, 9, 87, 0.678), 0 8px rgba(182, 9, 87, 0.678);
+   -webkit-transform: translateY(-8px);
+           transform: translateY(-8px);
+ }
+}
+@keyframes text-shadow-pop-bottom {
+ 0% {
+   text-shadow: 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678), 0 0 rgba(182, 9, 87, 0.678);
+   -webkit-transform: translateY(0);
+           transform: translateY(0);
+ }
+ 100% {
+   text-shadow: 0 1px rgba(182, 9, 87, 0.678), 0 2px rgba(182, 9, 87, 0.678), 0 3px rgba(182, 9, 87, 0.678), 0 4px rgba(182, 9, 87, 0.678), 0 5px rgba(182, 9, 87, 0.678), 0 6px rgba(182, 9, 87, 0.678), 0 7px rgba(182, 9, 87, 0.678), 0 8px rgba(182, 9, 87, 0.678);
+   -webkit-transform: translateY(-8px);
+           transform: translateY(-8px);
+ }
+}
+/*-------------------------------------GFin de regalos------------------------------------*/
+
+/*--------------------------------Comentario----------------------------------------------*/
+.tarjeta{
+margin: 5rem;
+background-image: linear-gradient(to bottom, #ffc0cb, #ffccc3, #ffdbc0, #ffebc5, #fafad2);
+width: 100%;
+height: 100%;
+padding: 5rem;
+}
+.tarjeta form{
+font-family: 'kalamregular';
+margin-left: 25%;
+font-size: 2rem;
+background: linear-gradient(135deg, rgba(229, 132, 217, 0.212), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+-moz-backdrop-filter: blur(10px);
+border: 1px solid rgba(233, 216, 216, 0.295);
+border-radius: 5rem;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.tarjeta form input, .tarjeta form label{
+  margin-left: 25%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+}
+.tarjeta form input{
+  background: red;
+  color: white;
+}
+.tarjeta form input:hover{
+  transform: translateY(-0.33em);
+}
+/*-------------------------------------Fin de Comentario-------------------------------------*/
+
+/*-------------------------------------------Confirmacion-----------------------------------*/
+.confirmacion{
+  background-image: linear-gradient(to top, #ffc0cb, #ffccc3, #ffdbc0, #ffebc5, #fafad2);
+}
+.conf_padrinos{
+  font-size: 2rem;
+}
+.caja_padrinos{
+  margin-top: 3rem; 
+  font-family: 'carrois_gothicregular';
+  padding: 4rem;
+  background: linear-gradient(135deg, rgba(229, 132, 217, 0.212), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+-moz-backdrop-filter: blur(10px);
+border: 1px solid rgba(233, 216, 216, 0.295);
+border-radius: 5rem;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.caja_padrinos h2{
+  font-size: 2.5rem;
+  font-family: 'kalamregular';
+}
+.caja_padrinos span b{
+  font-family: 'kalamregular';
+}
+
+
+.formulario_conf{
+  font-size: 2rem;
+  
+}
+.formulario_conf form{
+  padding: 4rem;
+font-family: 'kalamregular';
+  background: linear-gradient(135deg, rgba(229, 132, 217, 0.212), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+-moz-backdrop-filter: blur(10px);
+border: 1px solid rgba(233, 216, 216, 0.295);
+border-radius: 5rem;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.formulario_conf form h3{
+  font-size: 2.5rem;
+}
+
+.formulario_conf form input{
+  margin-top: 1rem;
+  font-family: 'carrois_gothicregular';
+}
+.formulario_conf form textarea{
+  font-family: 'carrois_gothicregular';
+}
+/*-----------------------------FIn de confirmacion-----------------------------------------*/
+/*------------------------------Musica-----------------------------------------------*/
+.player audio{
+  position: fixed;
+  z-index: 50;
+  margin-top: 30rem;
+  width: 8rem;
+  height: 5rem;
+  border-radius: 50%;
+  
+}
+.music_contro{
+  background-color: rgba(239, 239, 244, 0.934);
+}
+.music_contro:hover{
+  background-color: rgba(242, 10, 10, 0.4);
+  color: yellow;
+}
+
+
+/*----------------------------Fin musica-----------------------------------------------*/

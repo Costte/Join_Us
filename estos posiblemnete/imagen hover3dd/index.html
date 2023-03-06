@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+* {  
+     box-sizing: border-box;  
+    }  
+ body {  
+     background-color: #eeeeee;  
+    }  
+    .container {  
+     position: relative;  
+     width: 50%;  
+     max-width: 300px;  
+     margin-top: 50px;  
+     margin-left:450px;  
+    }  
+    .image {  
+     display: block;  
+     width: 80%;  
+     height: auto;  
+    }  
+    .game_box-game-logo {  
+     position: absolute;  
+     bottom: 0;  
+     color: white;  
+     width: 100%;  
+     transition: .25s ease;  
+     color: white;  
+     font-size: 20px;  
+     padding: 20px 40px 20px 40px;  
+     text-align: center;  
+    }  
+    img {  
+     border-style: none;  
+     display: block;  
+     max-width: 100%;  
+     border-radius: 5px;  
+    }  
+    .game-box:hover .game_box-game-cover {  
+     box-shadow: 0 5px 5px -15px rgba(1, 19, 53, 0.3),  
+      0 10px 10px -15px rgba(1, 19, 53, 0.3),  
+      0 20px 20px -15px rgba(1, 19, 53, 0.3),  
+      0 40px 40px -15px rgba(1, 19, 53, 0.3),  
+      0 50px 50px -20px rgba(1, 19, 53, 0.3),  
+      0 70px 70px -25px rgba(1, 19, 53, 0.3);  
+     transition: .25s ease;  
+    }  
+    .game-box:hover {  
+     -ms-transform: scale(1.02);  
+     -webkit-transform: scale(1.02);  
+     transform: scale(1.02);  
+     transition: 0.25s ease;  
+    }  
+    .game-box:hover .game_box-game-logo {  
+     -ms-transform: scale(1.02);  
+     -webkit-transform: scale(1.02);  
+     transform: scale(1.02);  
+     width: 100%;  
+     padding: 20px 40px 15px 40px;  
+     max-width: 100%;  
+    }  
+    game-box-link {  
+     outline-width: 0;  
+    }  
+
+</style>
+<body>
+    <div class="container">  
+        <div class="game-box">  
+         <img  
+          src="https://www.crytek.com/frontend/cb5dff024714b98663acd7ef5ef14e8b.jpg"  
+          alt=""  
+          class="game_box-game-cover"  
+         />  
+         <img  
+          src="https://www.crytek.com/frontend/94def872c5a1ec487b1a258707b220e0.png"  
+          alt=""  
+          class="game_box-game-logo"  
+         />  
+        </div>  
+       </div>  
+</body>
+</html>

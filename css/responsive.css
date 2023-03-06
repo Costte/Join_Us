@@ -1,0 +1,557 @@
+@media (min-width:1201px){
+    /*---------------------INdex Inicio -------------------------------*/
+
+
+    /*-----------------------Index Final ------------------------------*/
+
+            /*---------------------PLANES Inicio -------------------------------*/
+
+
+    /*-----------------------PLANES Final ------------------------------*/
+
+}
+
+@media (min-width:1024px) and (max-width: 1200px){
+        /*---------------------INdex Inicio -------------------------------*/
+
+        /*------------menu -----------*/
+        .menu_opc a{
+            font-size: 1.5em;
+        }
+  /*-------------------Comentario--------------------*/
+        .slider .comentario{
+            font-size: 2.5rem;
+            top: 45rem;
+            left: 90rem;
+
+          }
+
+    /*-----------------------Index Final ------------------------------*/
+
+        /*---------------------PLANES Inicio -------------------------------*/
+
+
+    /*-----------------------PLANES Final ------------------------------*/
+}
+
+@media (min-width:769px) and (max-width:1023px){
+       /*---------------------INdex Inicio -------------------------------*/
+       .menu_opc a{
+        font-size: 1.3em;
+        right: 2rem;
+    }
+    .slider h1{
+        top: 30rem;
+        left:10rem;;
+        font-size: 9em;
+        font-weight: 700;
+      }
+      .slider .comentario{
+        font-size: 2.5rem;
+        top: 45rem;
+        left: 50rem;
+
+      }
+
+      .tablas .tabla{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        width: 20rem;
+        height: 5rem;
+        margin: 0px 4rem 0 0;        
+    }
+
+    .articulo_tabla{
+        font-size: 2.5rem;
+    }
+
+    input.question,
+textarea.question {
+  font-size: 2.5rem;
+}
+.formulario h3{
+    font-size: 4rem;
+  }
+
+.form_titulo {
+  font-size: 3rem !important;
+
+}
+.respuesta{
+    color: white;
+    font-size: 2rem !important;
+  }
+    /*-----------------------Index Final ------------------------------*/ 
+
+            /*---------------------PLANES Inicio -------------------------------*/
+            .nombres_novios h1{
+              font-size: 7.5rem;
+              margin-top: 6rem;
+            }
+
+            .fecha_boda h2{
+              font-size: 3rem;
+            }
+            
+            .fecha_boda li {
+              font-size: 2.5em;
+            }
+            .fecha_boda li span {
+              font-size: 5.5rem;
+            }
+            .direcciones{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+              justify-content: space-around;
+              align-items: stretch;
+              box-sizing: border-box;
+              margin: 0px -4px;
+              width: 110%;
+            }
+            .bg-items {
+              width: 320px;
+              height: 230px;
+              margin: 10px;
+            }
+            .items {
+              width: 280px;
+              height: 185px;
+            }
+
+            .details h6 {
+              text-align: left;
+              font-size: 1.5rem;
+            }
+            .details{
+              box-sizing:border-box;
+            }
+            
+            .details p {
+              font-size: 1.5rem;
+    
+              text-align: left;
+              line-height: 20px;
+             
+            }
+
+            .bg-items span{
+              font-size: 1.7rem;
+              position:relative;
+            }
+            .conf_padrinos{
+              font-size: 1.8rem;
+            }
+            .caja_padrinos h2{
+              font-size: 2rem;
+              text-align: center;
+            }
+
+            .formulario_conf{
+              font-size: 1.5rem;
+              
+            }
+            .formulario_conf form h3{
+              font-size: 2rem;
+            }
+            .form_titulo{
+              font-size: 2rem !important;
+            }
+            .formulario_conf form input, .formulario_conf form textarea{
+              font-size: 1rem;
+            }
+
+
+    /*-----------------------PLANES Final ------------------------------*/
+}
+
+@media (min-width:481px) and (max-width:768px){
+        /*---------------------INdex Inicio -------------------------------*/
+        .menu_opc a{
+          font-size: 1em ;
+          right: 3rem;
+      }
+      .nombres_novios h2{
+        font-size: 8rem !important;
+        margin-left: 15rem !important;
+        margin-top: 0rem;
+      }
+
+      .cont_log{
+        margin-left: 8rem;
+
+        }
+        .nav_img{
+            width: 7rem;
+            height: 7rem; 
+        }
+
+      .slider h1{
+          top: 8rem;
+          left:15rem;;
+          font-size: 9em;
+          font-weight: 700;
+        }
+        .slider .comentario{
+          font-size: 2.5rem;
+          top: 27rem;
+          left: 10rem;
+  
+        }
+        h2{
+          transform: translate(-35%, 50%);
+          padding-bottom: 5rem;
+      }
+
+      .caja-conte {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        column-gap: 28px;
+        row-gap: 28px;
+        
+      }
+
+      .tablas .tabla{
+        font-size: 2rem;
+        line-height: 3rem;
+        width: 20rem;
+        height: 5rem;
+        margin: 0px 2rem 0 0;        
+    }
+    .tabla p{
+      display: none;
+    }
+
+    .articulo_tabla{
+        font-size: 1.5rem;
+    }
+    .contacto{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: stretch;
+      align-items: stretch;
+      column-gap: 27px;
+      row-gap: 28px;
+    }
+
+
+    /*-----------------------Index Final ------------------------------*/
+
+            /*---------------------PLANES Inicio -------------------------------*/
+            .nombres_novios h1{
+              font-size: 7.5rem;
+              margin-top: 6rem;
+            }
+
+            .fecha_boda h2{
+              font-size: 5rem;
+              margin-left: 40%;
+            }
+            
+            .fecha_boda li {
+      
+              font-size: 2em;
+            }
+            .fecha_boda li span {
+      
+              font-size: 5rem;
+            }
+
+            .boletos .text_boleto{
+              font-size: 4rem;
+            }
+
+            .direcciones{
+              flex-direction: column;
+              margin-left: 13%;
+      
+            }
+            
+            .bg-items {
+              width: 320px;
+              height: 230px;
+              margin: 10px;
+            }
+            .items {
+              width: 280px;
+              height: 185px;
+            }
+            
+
+            .details h6 {
+              text-align: left;
+              font-size: 1.5rem;
+            }
+            .details{
+              box-sizing:border-box;
+            }
+            
+            .details p {
+              font-size: 1.5rem;
+              text-align: left;
+              line-height: 20px;
+             
+            }
+
+            .bg-items span{
+              font-size: 1.7rem;
+              position:relative;
+            }
+
+            .liver img{
+              width: 15rem;
+              height: 10rem;
+              margin: 4rem;
+            }
+
+            section .nave li img{
+              width: 70px;
+           }
+           section h2{
+            font-size: 7rem !important;  
+          }
+   
+            .tarjeta form {
+              width: 90% !important;
+              margin-left: 3rem;
+            }
+
+            .confirmacion{
+              flex-direction: column;
+            }
+            .conf_padrinos{
+              font-size: 2rem;
+              
+            }
+            .caja_padrinos h2{
+              font-size: 2rem;
+              margin-left: 12rem;
+              width: 100%;
+            }
+
+            .formulario_conf{
+              font-size: 1.5rem;
+              
+            }
+            .formulario_conf form h3{
+              font-size: 2rem;
+            }
+            .form_titulo{
+              font-size: 2rem !important;
+            }
+            .formulario_conf form input, .formulario_conf form textarea{
+              font-size: 1rem;
+            }
+            .player audio{
+  
+              width: 6rem;
+              height: 5rem;
+              
+            }
+
+    /*-----------------------PLANES Final ------------------------------*/
+}
+
+@media (min-width:320px) and (max-width:480px){
+        /*---------------------INdex Inicio -------------------------------*/
+        .menu_opc a{
+          font-size: .9rem ;
+          right: 5rem;
+      }
+      .titu_15{
+        margin-left: 9rem;
+        margin-top: 10rem;
+      }
+      .nombres_novios h2{
+        font-size: 8rem !important;
+        margin-left: 20rem !important;
+        margin-top: 0rem;
+      }
+
+      .cont_log{
+        margin-left: 3rem;
+
+        }
+        .nav_img{
+            width: 6rem;
+            height: 6rem; 
+        }
+
+        .slider h1{
+          top: 8rem;
+          left:6rem;;
+          font-size: 7em;
+          font-weight: 700;
+        }
+        .slider .comentario{
+          font-size: 1.6rem;
+          top: 20rem;
+          left: 10rem;
+  
+        }
+   .planes{
+    margin-top: -40rem;
+   }
+
+   h2{
+    transform: translate(-50%, 50%);
+    padding-bottom: 5rem;
+     }
+
+
+.caja-conte {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  column-gap: 28px;
+  row-gap: 28px;
+  
+}
+
+.tablas .tabla{
+  font-size: 2rem;
+  line-height: 3rem;
+  width: 20rem;
+  height: 5rem;
+  margin: 0px 2rem 0 0;        
+}
+.tabla p{
+display: none;
+}
+.principal{
+  width: 100%;
+  margin-left: -1rem;
+}
+.articulo_tabla{
+  font-size: 1.5rem;
+    width: 100%;
+}
+.contacto{
+  display: block;
+}
+.formulario{
+  margin-bottom: 3rem;
+}
+.contac_user{
+  margin-left: 15%;
+}
+
+
+    /*-----------------------Index Final ------------------------------*/
+
+            /*---------------------PLANES Inicio -------------------------------*/
+
+            .nombres_novios h1{
+              font-size: 5rem;
+              margin-top: 6rem;
+            }
+
+            .fecha_boda h2{
+              font-size: 3rem;
+              margin-left: 50%;
+            }
+            
+            .fecha_boda li {
+              font-size: 1.5rem;
+            }
+            .fecha_boda li span {
+              font-size: 3rem;
+            }
+
+            .boletos .text_boleto{
+              font-size: 4rem;
+            }
+
+            .direcciones{
+              flex-direction: column;
+              justify-content: center;
+      
+            }
+            
+            .bg-items {
+              width: 320px;
+              height: 230px;
+              margin: 10px;
+            }
+            .items {
+              width: 280px;
+              height: 185px;
+            }
+            
+
+            .details h6 {
+              text-align: left;
+              font-size: 1.5rem;
+            }
+            .details{
+              box-sizing:border-box;
+            }
+            
+            .details p {
+              font-size: 1.5rem;
+              text-align: left;
+              line-height: 20px;
+             
+            }
+
+            .bg-items span{
+              font-size: 1.7rem;
+              position:relative;
+            }
+
+            .liver img{
+              width: 15rem;
+              height: 10rem;
+              margin: 1.5rem;
+            }
+
+            section .nave li img{
+              width: 40px;
+           }
+           section h2{
+            font-size: 7rem !important;  
+          }
+   
+            .tarjeta form {
+              width: 90% !important;
+              margin-left: 2rem;
+            }
+
+            .confirmacion{
+              flex-direction: column;
+            }
+            .conf_padrinos{
+              font-size: 2rem;
+              width: 100%;
+            }
+            .caja_padrinos h2{
+              font-size: 2rem;
+              margin-left: 12rem;
+              width: 100%;
+            }
+
+            .formulario_conf{
+              font-size: 1.5rem;
+              
+            }
+            .formulario_conf form h3{
+              font-size: 2rem;
+            }
+            .form_titulo{
+              font-size: 2rem !important;
+            }
+            .formulario_conf form input, .formulario_conf form textarea{
+              font-size: 1rem;
+            }
+
+            .player audio{
+  
+              width: 6rem;
+              height: 5rem;
+              
+            }
+    /*-----------------------PLANES Final ------------------------------*/
+}
