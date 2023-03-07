@@ -183,6 +183,8 @@ filter: drop-shadow(5px 5px 3px #ff5f5f);
   .slider ul{
       display: flex;
       animation: cambio 40s infinite alternate linear;
+      -webkit-animation: cambio 40s infinite alternate linear;
+      -moz-animation: cambio 40s infinite alternate linear;
       width: 400%;
   }
   .slider li{
